@@ -1,0 +1,187 @@
+:root{
+    --fundo-escuro:#121212;
+    --fundo-card:#1a1a1a;
+    --verde-militar:#4a6741;
+    --verde-hover:#3e5636;
+    --texto:#e0e0e0;
+}
+
+body{
+    background:
+    linear-gradient(rgba(18,18,18,0.9), rgba(18,18,18,0.9)),
+    url('photo-1550751827-4bd374c3f58b.avif');
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+
+    color:var(--texto);
+
+    font-family:'Segoe UI', Tahoma, sans-serif;
+
+    margin:0;
+}
+
+.menu{
+    background-color:#000;
+
+    border-bottom:2px solid var(--verde-militar);
+}
+
+.navbar-nav .nav-link{
+    color:#fff;
+
+    font-weight:500;
+
+    padding:10px 15px;
+
+    transition:0.3s;
+}
+
+.navbar-nav .nav-link:hover{
+    color:var(--verde-militar);
+}
+
+.botao-menu{
+    color:#fff;
+
+    background-color:var(--verde-militar);
+
+    padding:8px 20px;
+
+    border-radius:4px;
+
+    text-decoration:none;
+
+    transition:0.3s;
+}
+
+.botao-menu:hover{
+    background-color:var(--verde-hover);
+
+    color:#fff;
+}
+
+.principal{
+    padding:120px 0;
+
+    text-align:center;
+
+    color:#fff;
+}
+
+.botao-principal{
+    color:#fff;
+
+    background-color:var(--verde-militar);
+
+    padding:12px 30px;
+
+    font-weight:bold;
+
+    text-decoration:none;
+
+    border-radius:4px;
+
+    border:2px solid var(--verde-militar);
+
+    transition:0.3s;
+
+    display:inline-block;
+}
+
+.botao-principal:hover{
+    background-color:transparent;
+
+    color:var(--verde-militar);
+}
+
+.titulo-central{
+    color:#fff;
+
+    margin-bottom:20px;
+
+    display:inline-block;
+
+    border-bottom:3px solid var(--verde-militar);
+
+    padding-bottom:10px;
+}
+
+.conteudo-proposta{
+    font-size:1.15rem;
+
+    line-height:1.8;
+
+    background-color:rgba(0,0,0,0.4);
+
+    border-radius:8px;
+}
+
+.titulo-secao{
+    color:#fff;
+
+    margin-bottom:30px;
+
+    border-left:5px solid var(--verde-militar);
+
+    padding-left:15px;
+}
+
+.secao-escura{
+    background-color:rgba(0,0,0,0.3);
+}
+
+.card{
+    background-color:var(--fundo-card);
+
+    border:1px solid #333;
+
+    color:#fff;
+
+    transition:0.3s;
+}
+
+.card:hover{
+    border-color:var(--verde-militar);
+
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:var(--verde-militar);
+
+    margin-bottom:15px;
+}
+
+.card .btn-outline-light{
+    border:1px solid var(--verde-militar);
+
+    color:var(--texto);
+
+    text-transform:uppercase;
+
+    font-weight:bold;
+
+    font-size:0.85rem;
+
+    transition:0.3s;
+}
+
+.card .btn-outline-light:hover{
+    background-color:var(--verde-militar);
+
+    color:#fff;
+
+    border-color:var(--verde-militar);
+}
+
+footer{
+    padding:40px 0;
+
+    border-top:1px solid #333;
+
+    text-align:center;
+
+    background-color:#000;
+}
